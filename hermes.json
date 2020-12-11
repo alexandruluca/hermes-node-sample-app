@@ -1,0 +1,14 @@
+{
+    "packageLocation": "",
+    "include": [
+        "src/**",
+        "node_modules/**"
+    ],
+    "exclude": [],
+    "includeHiddenFilesAndFolders": false,
+    "runtimeOptions": {
+        "script": "./src/index.js",
+        "configurable": false,
+        "execMode": "fork"
+    }
+}
