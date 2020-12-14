@@ -1,2 +1,3 @@
-console.log('hello world');
-console.log('hello 2')
+exports.handler = async function (event, context) {
+    context.succeed('hello world');
+}
